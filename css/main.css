@@ -87,6 +87,198 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------Base Header - Footer Styles -----*/
+
+header,  
+footer {
+
+}
+
+
+/* -------Header Styles -----*/
+
+
+header {
+
+}
+
+
+header .content-wrapper {
+
+}
+
+header figure {
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+
+}
+
+/* -------Mobile Styles - Homepage -----*/
+
+.hero-area {
+
+}
+
+article {
+
+}
+article h1 {
+
+}
+article h3 {
+
+}
+
+article p {
+
+}
+
+/*Form stuff - mobile site*/
+
+aside {
+
+}
+
+.form-description {
+
+}
+
+.form-description h3 {
+
+}
+
+.form {
+
+}
+
+.download-itinerary {
+
+}
+
+input {
+
+}
+
+/****Amenities list and icons section****/
+
+.features {
+
+}
+
+.features .content-wrapper
+
+.features h2 {
+
+}
+
+.features-items {
+
+}
+
+.icon-item {
+
+}
+
+.icon-items p {
+
+}
+
+.font-awesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+/*Featured team (review) section*/
+
+.reviews {
+
+}
+
+.reviews .content-wrapper {
+
+}
+
+.content-wrapper h2 {
+
+}
+
+.content-wrapper p {
+
+}
+/* -------Footer -----*/
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+.footer-contact {
+
+}
+
+.contact {
+
+}
+
+.contact address {
+
+}
+
+address {
+
+}
+
+address p {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+
+}
+
+.social-icons h4 {
+
+}
+
+.social-icons h4 a {
+
+}
+
+.copyright {
+
+}
+
+.copyright p {
+  
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
