@@ -111,6 +111,10 @@ header figure {
 
 }
 
+header figure a {
+
+}
+
 .header-divider {
 
 }
@@ -183,7 +187,9 @@ input {
 
 }
 
-.features .content-wrapper
+.features .content-wrapper {
+
+}
 
 .features h2 {
 
@@ -197,7 +203,7 @@ input {
 
 }
 
-.icon-items p {
+.icon-item p {
 
 }
 
@@ -277,7 +283,112 @@ address p {
 }
 
 .copyright p {
-  
+
+}
+
+/* -------About page mobile styles -----*/
+
+.mission {
+
+}
+
+.mission .content-wraper {
+
+}
+
+.mission-content {
+
+}
+
+.mission-content h1 {
+
+}
+
+.mission-content h1 p {
+
+}
+
+map {
+
+}
+
+map figure {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.mission-content h2 {
+
+}
+
+.mission-content h3 {
+
+}
+
+address {
+
+}
+
+address p {
+
+}
+
+.chat {
+
+}
+
+.chat h3 {
+
+}
+
+.chat p {
+
+}
+
+/* -------FAQ page mobile styles -----*/
+
+.faq {
+
+}
+
+.faq .content-wrapper {
+
+}
+
+.faq-items {
+
+}
+
+.faq-items h1 {
+
+}
+/*don't think this one is needed
+article {
+
+}
+*/
+
+.faq-list-item {
+
+}
+
+.faq-list-item h3 {
+
+}
+
+.faq-list-item p {
+
 }
 /* ==========================================================================
    Helper classes
