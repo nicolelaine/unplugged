@@ -86,21 +86,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+* {
+  border: 1px solid red;
+}
 /* -------Base Header - Footer Styles -----*/
 
 header,  
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
+body {
+ 
+}
 /* -------Header Styles -----*/
 
 
 header {
 
 }
+
 
 
 header .content-wrapper {
@@ -124,11 +131,13 @@ header nav {
 }
 
 header nav ul {
-
+   display: flex;
+   justify-content: space-around;
+   list-style-type: none;
 }
 
 header nav ul li {
-
+  
 }
 
 header nav ul li a {
@@ -137,11 +146,20 @@ header nav ul li a {
 
 /* -------Mobile Styles - Homepage -----*/
 
-.hero-area {
+main {
 
 }
 
+.hero-area {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
 article {
+ 
 
 }
 article h1 {
@@ -173,7 +191,7 @@ aside {
 
 }
 
-.download-itinerary {
+#download-itinerary {
 
 }
 
@@ -225,7 +243,15 @@ input {
 
 }
 
-.content-wrapper h2 {
+.reviews-header {
+
+}
+
+.reviews-header h2 {
+
+}
+
+.content-header h3 {
 
 }
 
