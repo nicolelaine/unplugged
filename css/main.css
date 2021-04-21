@@ -87,39 +87,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 * {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
+
+
 /* -------Base Header - Footer Styles -----*/
 
 header,  
 footer {
+  /*
   display: flex;
   justify-content: center;
   align-items: center;
+  */
 }
 
 body {
+ /*
+ margin: 0;
+ padding: 0;
  
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ width: 90%;
+ /*
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ */
 }
 /* -------Header Styles -----*/
 
 
 header {
-
+      display: flex;
+      justify-content: center;
 }
 
-
-
-header .content-wrapper {
-
+.content-wrapper {
+  
+  /*
+  display: flex;
+  justify-content: center;
+  */
+  
 }
+
 
 header figure {
-
+  width: 100%;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 header figure a {
+ 
+}
 
+#unplugged {
+  width: 220px;
 }
 
 .header-divider {
@@ -127,13 +158,34 @@ header figure a {
 }
 
 header nav {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
 
+header .content-wrapper {
+  
+  max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+  /*
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  */
 }
 
 header nav ul {
+   width: 100%;
    display: flex;
    justify-content: space-around;
    list-style-type: none;
+   padding: 0;
 }
 
 header nav ul li {
@@ -151,17 +203,25 @@ main {
 }
 
 .hero-area {
+  /*
   display: flex;
   width: 100%;
   justify-content: flex-end;
   align-content: center;
   flex-wrap: wrap;
+  */
 }
 
 article {
- 
-
+  /*
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: flex-start;
+  */
 }
+
 article h1 {
 
 }
@@ -176,20 +236,35 @@ article p {
 /*Form stuff - mobile site*/
 
 aside {
-
+  /*
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  */
 }
 
 .form-description {
-
+  /*
+  align-self: flex-start;
+  */
 }
 
 .form-description h3 {
-
+   
 }
 
 .form {
+  /*
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 90%;
+  */
+
 
 }
+
 
 #download-itinerary {
 
@@ -203,10 +278,11 @@ input {
 
 .features {
 
+
 }
 
 .features .content-wrapper {
-
+ 
 }
 
 .features h2 {
@@ -214,7 +290,9 @@ input {
 }
 
 .features-items {
-
+  /*
+text-align: center;
+*/
 }
 
 .icon-item {
@@ -268,6 +346,13 @@ footer .content-wrapper {
 
 }
 
+.footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer-contact {
 
 }
@@ -285,6 +370,7 @@ address {
 }
 
 address p {
+  text-align: center;
 
 }
 
@@ -297,11 +383,12 @@ address p {
 }
 
 .social-icons h4 {
+  text-align: center;
 
 }
 
-.social-icons h4 a {
-
+.social-icons a {
+     padding: 10px;
 }
 
 .copyright {
@@ -309,21 +396,28 @@ address p {
 }
 
 .copyright p {
-
+ text-align: center;
 }
 
 /* -------About page mobile styles -----*/
 
 .mission {
-
+  display: flex;
+  justify-content: center;
 }
 
-.mission .content-wraper {
+.mission .content-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+
 
 }
 
 .mission-content {
-
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
 
 .mission-content h1 {
@@ -335,19 +429,22 @@ address p {
 }
 
 map {
-
+ 
 }
 
 map figure {
-
 }
 
 .contact-section {
-
+  display: flex;
+  justify-content: center;
 }
 
 .contact-section .content-wrapper {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
 }
 
 .mission-content {
@@ -355,14 +452,17 @@ map figure {
 }
 
 .mission-content h2 {
-
+ 
 }
 
 .mission-content h3 {
-
+  
 }
 
-address {
+.address-about {
+  display: flex;
+  
+ 
 
 }
 
@@ -389,10 +489,21 @@ address p {
 }
 
 .faq .content-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+ 
+
+
 
 }
 
 .faq-items {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
 
 }
 
