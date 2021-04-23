@@ -86,7 +86,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-* {
+/*
+
+   * {
   outline: 1px solid red;
 }
 
@@ -95,29 +97,11 @@ textarea {
 
 header,  
 footer {
-  /*
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  */
+  
 }
 
 body {
- /*
- margin: 0;
- padding: 0;
- 
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
- width: 90%;
- /*
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- */
+
 }
 /* -------Header Styles -----*/
 
@@ -129,10 +113,6 @@ header {
 
 .content-wrapper {
   
-  /*
-  display: flex;
-  justify-content: center;
-  */
   
 }
 
@@ -172,12 +152,7 @@ header .content-wrapper {
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-  /*
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  */
+ 
 }
 
 header nav ul {
@@ -203,23 +178,19 @@ main {
 }
 
 .hero-area {
-  /*
   display: flex;
-  width: 100%;
-  justify-content: flex-end;
-  align-content: center;
-  flex-wrap: wrap;
-  */
+  flex-direction: column;
+  align-items: center;
+
+  
 }
 
 article {
-  /*
   display: flex;
   flex-direction: column;
   width: 90%;
-  justify-content: center;
-  align-items: flex-start;
-  */
+ 
+  
 }
 
 article h1 {
@@ -236,18 +207,15 @@ article p {
 /*Form stuff - mobile site*/
 
 aside {
-  /*
+
   width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  */
+  
 }
 
 .form-description {
-  /*
-  align-self: flex-start;
-  */
+  
 }
 
 .form-description h3 {
@@ -255,12 +223,9 @@ aside {
 }
 
 .form {
-  /*
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  width: 90%;
-  */
+  
 
 
 }
@@ -277,12 +242,15 @@ input {
 /****Amenities list and icons section****/
 
 .features {
-
+  display: flex;
+  justify-content: center;
 
 }
 
 .features .content-wrapper {
- 
+   display: flex;
+   flex-direction: column;
+   width: 90%;
 }
 
 .features h2 {
@@ -290,17 +258,20 @@ input {
 }
 
 .features-items {
-  /*
-text-align: center;
-*/
+
 }
 
 .icon-item {
-
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
 }
 
 .icon-item p {
-
+     
 }
 
 .font-awesome-icon {
@@ -308,16 +279,22 @@ text-align: center;
 }
 
 .features-item-description {
-
+   text-align: center;
+   width: 60%;
 }
 
 /*Featured team (review) section*/
 
 .reviews {
-
+   display: flex;
+   justify-content: center;
+   
 }
 
 .reviews .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
 
 }
 
@@ -466,8 +443,8 @@ map figure {
 
 }
 
-address p {
-
+.address-about p {
+    text-align: left;
 }
 
 .chat {
