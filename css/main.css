@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*
+
 
    * {
   outline: 1px solid red;
@@ -504,6 +504,19 @@ article {
 .faq-list-item p {
 
 }
+
+/*media query for tablet*/
+@media all and (min-width:768px) {
+  
+header .content-wrapper {
+  flex-wrap: nowrap;
+}
+  header figure {
+  display: block;
+}
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
