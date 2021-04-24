@@ -517,6 +517,7 @@ article {
 .footer-content {
   flex-direction: row;
   justify-content: space-around;
+  align-items: baseline;
 
 }
 
