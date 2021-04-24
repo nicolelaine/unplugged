@@ -514,6 +514,12 @@ article {
       display: block;
 }
 
+.footer-content {
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
 /*FAQ page specifically*/
   article {
       width: 40%;
@@ -525,6 +531,7 @@ article {
 }
   .faq-items h1 {
     width: 100%;
+
   }
 
 }
