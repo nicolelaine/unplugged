@@ -181,14 +181,17 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
-  
+.hero-area .content-wrapper {
+  display: flex;
+  width: 90%;
 }
 
 article {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
  
   
 }
@@ -470,11 +473,6 @@ map figure {
   width: 100%;
   display: flex;
   justify-content: center;
-  
- 
-
-
-
 }
 
 .faq-items {
@@ -505,15 +503,30 @@ article {
 
 }
 
-/*media query for tablet*/
+
 @media all and (min-width:768px) {
-  
-header .content-wrapper {
-  flex-wrap: nowrap;
+  /*media queries for tablet*/
+
+  header .content-wrapper {
+      flex-wrap: nowrap;
 }
   header figure {
-  display: block;
+      display: block;
 }
+
+/*FAQ page specifically*/
+  article {
+      width: 40%;
+}
+ .faq-items {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+}
+  .faq-items h1 {
+    width: 100%;
+  }
+
 }
 
 
