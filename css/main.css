@@ -566,30 +566,35 @@ article {
   .mission-content { 
      flex-wrap: wrap;
      flex-direction: row;
+     justify-content: space-between;
 }
 
   .mission-content h1 {
    
   }
   .mission-content p {
-    width: 40%;
-    margin: 0px 30px;
+    width: 45%;
+
+    
   }
 
   .contact-content {
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+  }
+
+  .contact-content h2 {
+    width: 100%;
   }
 
   .address-about {
     flex-wrap: wrap;
-    margin-right: 95px;
-    width: 40%;
+    width: 45%;
   }
 
   .chat {
-    width: 40%;
+    width: 45%;
   }
   
 }
