@@ -400,11 +400,17 @@ address p {
  justify-content: center;
 }
 
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .mission-content h1 {
 
 }
 
-.mission-content h1 p {
+.mission-content p {
 
 }
 
@@ -518,25 +524,38 @@ article {
   flex-direction: row;
   justify-content: space-around;
   align-items: baseline;
-
 }
 
-/*FAQ page specifically*/
+/*FAQ page specific*/
   article {
       width: 40%;
 }
+
  .faq-items {
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
 }
+
   .faq-items h1 {
     width: 100%;
-
   }
 
+/*About page specific*/
+  .mission-content { 
+     flex-wrap: wrap;
+     flex-direction: row;
 }
 
+  .mission-content h1 {
+   
+  }
+  .mission-content p {
+    width: 40%;
+    margin: 0px 30px;
+  }
+  
+}
 
 /* ==========================================================================
    Helper classes
