@@ -421,17 +421,7 @@ map {
 map figure {
 }
 
-.contact-section {
-  display: flex;
-  justify-content: center;
-}
 
-.contact-section .content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-}
 
 .mission-content {
 
@@ -445,15 +435,46 @@ map figure {
   
 }
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+.contact-content {
+
+}
+
+.contact-content h2 {
+
+}
+
+.contact-content h3 {
+
+}
+
+.contact-content p {
+
+}
+
 .address-about {
   display: flex;
   
- 
 
 }
 
 .address-about p {
     text-align: left;
+}
+
+.address-about h3 {
+
 }
 
 .chat {
@@ -553,6 +574,22 @@ article {
   .mission-content p {
     width: 40%;
     margin: 0px 30px;
+  }
+
+  .contact-content {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .address-about {
+    flex-wrap: wrap;
+    margin-right: 95px;
+    width: 40%;
+  }
+
+  .chat {
+    width: 40%;
   }
   
 }
