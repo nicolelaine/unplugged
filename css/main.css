@@ -351,6 +351,7 @@ address {
 
 address p {
   text-align: center;
+ 
 
 }
 
@@ -465,6 +466,7 @@ map figure {
 
 .address-about {
   display: flex;
+  flex-direction: column;
   
 
 }
@@ -534,17 +536,22 @@ article {
 @media all and (min-width:768px) {
   /*media queries for tablet*/
 
+
+
   header .content-wrapper {
       flex-wrap: nowrap;
+      width: 80%;
 }
   header figure {
       display: block;
+      width: 190%
 }
 
 .footer-content {
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: baseline;
+  width: 110%;
 }
 
 /*FAQ page specific*/
@@ -569,14 +576,18 @@ article {
      justify-content: space-between;
 }
 
-  .mission-content h1 {
-   
-  }
-  .mission-content p {
-    width: 45%;
+.mission .content-wrapper{
+    width: 80%;
+}
 
-    
+  .mission-content p {
+    width: 45%;  
   }
+
+  .contact-section .content-wrapper {
+      margin-bottom: 100px;
+      width: 80%;
+    }
 
   .contact-content {
     flex-wrap: wrap;
@@ -595,6 +606,11 @@ article {
 
   .chat {
     width: 45%;
+  }
+
+  address p {
+    margin-top: 0;
+  
   }
   
 }
