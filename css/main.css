@@ -536,22 +536,24 @@ article {
 @media all and (min-width:768px) {
   /*media queries for tablet*/
 
-
-
   header .content-wrapper {
       flex-wrap: nowrap;
       width: 80%;
 }
   header figure {
       display: block;
-      width: 190%
+      width: 100%
+}
+
+header nav {
+  width: 50%;
 }
 
 .footer-content {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: baseline;
-  width: 110%;
+  width: 100%;
 }
 
 /*FAQ page specific*/
