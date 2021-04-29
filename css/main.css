@@ -584,6 +584,12 @@ aside {
 .icon-item {
   width: 45%;
 }
+
+.reviews .content-wrapper {
+  width: 80%;
+}
+
+
 /*FAQ page specific*/
   article {
       width: 45%;
