@@ -574,6 +574,16 @@ aside {
   width: 45%;
 }
 
+.features .content-wrapper {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon-item {
+  width: 45%;
+}
 /*FAQ page specific*/
   article {
       width: 45%;
