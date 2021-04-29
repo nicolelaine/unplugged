@@ -186,6 +186,11 @@ main {
 .hero-area .content-wrapper {
   display: flex;
   width: 90%;
+  flex-direction: column;
+}
+
+.content-wrapper h1 {
+
 }
 
 article {
@@ -211,7 +216,7 @@ article p {
 
 aside {
 
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   
@@ -556,15 +561,29 @@ header nav {
   width: 100%;
 }
 
+/*Homepage specific*/
+
+.hero-area .content-wrapper {
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+aside {
+  width: 45%;
+}
+
 /*FAQ page specific*/
   article {
-      width: 40%;
+      width: 45%;
 }
 
  .faq-items {
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
+      width: 80%;
 }
 
   .faq-items h1 {
