@@ -97,7 +97,8 @@ textarea {
 
 header,  
 footer {
-  
+  background-color: #202322;
+  color: white;
 }
 
 body {
@@ -174,6 +175,8 @@ header nav ul li a {
 /* -------Mobile Styles - Homepage -----*/
 
 main {
+ background-color: #527158;
+ color: white;
 
 }
 
@@ -252,6 +255,7 @@ input {
 .features {
   display: flex;
   justify-content: center;
+  background-image: url(../img/dinner.jpg);
 
 }
 
@@ -318,9 +322,34 @@ input {
 
 }
 
+.content-wrapper h2 {
+
+}
+
 .content-wrapper p {
 
 }
+
+.content-wrapper .lacrue-team {
+
+}
+
+.lacrue-team {
+
+}
+
+.lacure-team p {
+
+}
+
+.lacrue-team-img {
+
+}
+
+.lacrue-team-text {
+
+}
+
 /* -------Footer -----*/
 
 footer {
@@ -537,14 +566,17 @@ article {
 
 }
 
-
+/*
 @media all and (min-width:768px) {
-  /*media queries for tablet*/
+ media queries for tablet */
 
-  header .content-wrapper {
+@media only screen and (min-width:768px) {
+
+header .content-wrapper {
       flex-wrap: nowrap;
       width: 80%;
 }
+
   header figure {
       display: block;
       width: 100%
@@ -574,6 +606,7 @@ aside {
   width: 45%;
 }
 
+
 .features .content-wrapper {
     width: 80%;
     flex-direction: row;
@@ -587,6 +620,7 @@ aside {
 
 .reviews .content-wrapper {
   width: 80%;
+}
 }
 
 
@@ -605,7 +639,7 @@ aside {
   .faq-items h1 {
     width: 100%;
   }
-
+  
 /*About page specific*/
   .mission-content { 
      flex-wrap: wrap;
