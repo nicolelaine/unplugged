@@ -98,7 +98,7 @@ textarea {
 header,  
 footer {
   background-color: #202322;
-  color: white;
+  color: #e2e3ed;
 }
 
 body {
@@ -171,12 +171,15 @@ header nav ul li {
 header nav ul li a {
 
 }
+nav ul li a:visited {
+ color: #e2e3ed;
+}
 
 /* -------Mobile Styles - Homepage -----*/
 
 main {
  background-color: #527158;
- color: white;
+ color: #e2e3ed;
 
 }
 
@@ -300,6 +303,7 @@ input {
 .reviews {
    display: flex;
    justify-content: center;
+   background-color: #294139;
    
 }
 
@@ -404,6 +408,15 @@ address p {
 
 .social-icons a {
      padding: 10px;
+}
+
+
+
+.soc-icon {
+  color: #e2e3ed;
+  background-color: #527158;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 .copyright {
