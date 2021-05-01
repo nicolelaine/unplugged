@@ -104,6 +104,10 @@ footer {
 body {
 
 }
+
+html {
+  font-size: 16px;
+}
 /* -------Header Styles -----*/
 
 
@@ -165,10 +169,14 @@ header nav ul {
 }
 
 header nav ul li {
-  
+   font-size: 1.125em;
+   text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
 }
 
 header nav ul li a {
+
 
 }
 nav ul li a:visited {
@@ -559,7 +567,8 @@ map figure {
 }
 
 .faq-items h1 {
-
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
 }
 /*don't think this one is needed
 article {
@@ -572,11 +581,13 @@ article {
 }
 
 .faq-list-item h3 {
-
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 .faq-list-item p {
-
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 /*
