@@ -173,14 +173,17 @@ header nav ul li {
    text-transform: uppercase;
    font-family: 'Open Sans', sans-serif;
    font-weight: 700;
+  
 }
 
 header nav ul li a {
-
+  text-decoration: none;
+ 
 
 }
 nav ul li a:visited {
  color: #e2e3ed;
+
 }
 
 /* -------Mobile Styles - Homepage -----*/
