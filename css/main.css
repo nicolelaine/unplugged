@@ -134,6 +134,7 @@ h4 {
 p {
   font-size: 0.875em;
   line-height: 1.125em;
+  font-weight: 400;
 }
  
 img {
@@ -481,12 +482,17 @@ address p {
 
 }
 
-.social-icons {
+.social h4 {
+  text-align: center;
+}
 
+.social-icons {
+  display: flex;
 }
 
 .social-icons h4 {
   text-align: center;
+  font-weight: 500;
 
 }
 
@@ -497,14 +503,24 @@ address p {
 
 
 .soc-icon {
-  color: #e2e3ed;
+  
   background-color: #527158;
-  padding: 5px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.soc {
+
+}
+
+.fa-facebook {
+  
 }
 
 .copyright {
-
+    padding: 10px;
 }
 
 .copyright p {
