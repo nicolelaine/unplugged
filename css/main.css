@@ -93,6 +93,68 @@ textarea {
 }
 
 
+/* General Styles */
+ 
+html {
+    font-size: 16px;
+}
+ 
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1em;
+}
+ 
+ul, 
+ol {
+ 
+}
+ 
+a {
+  text-decoration: none;
+  color: #e2e3ed;
+}
+
+a:visited {
+  color: #e2e3ed;
+ 
+ }
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+ 
+p {
+  font-size: 0.875em;
+  line-height: 1.125em;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-style: normal;
+ font-size: 0.875em;
+ 
+}
+ 
+.content-wrapper {
+ 
+}
+
+
 /* -------Base Header - Footer Styles -----*/
 
 header,  
@@ -105,9 +167,7 @@ body {
 
 }
 
-html {
-  font-size: 16px;
-}
+
 /* -------Header Styles -----*/
 
 
@@ -160,6 +220,11 @@ header .content-wrapper {
  
 }
 
+header .content-header h1 {
+  font-size: 1.875em;
+  line-height: 1.875em;
+}
+
 header nav ul {
    width: 100%;
    display: flex;
@@ -177,12 +242,12 @@ header nav ul li {
 }
 
 header nav ul li a {
-  text-decoration: none;
+
  
 
 }
 nav ul li a:visited {
- color: #e2e3ed;
+
 
 }
 
@@ -398,8 +463,16 @@ address {
 
 }
 
+address h4 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.125em;
+}
+
 address p {
   text-align: center;
+  font-weight: 400;
+  font-size: 0.875em;
  
 
 }
@@ -572,6 +645,7 @@ map figure {
 .faq-items h1 {
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
+   font-size: 1.875em;
 }
 /*don't think this one is needed
 article {
@@ -586,6 +660,8 @@ article {
 .faq-list-item h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  font-weight: 1.125em;
+
 }
 
 .faq-list-item p {
