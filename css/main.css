@@ -138,10 +138,13 @@ p {
 }
  
 img {
- 
+   width: 100%
 }
  
 figure {
+
+    margin: 0;
+  }
  
 }
  
@@ -419,8 +422,8 @@ input {
 
 }
 
-.lacure-team p {
-
+.lacrue-team p {
+  
 }
 
 .lacrue-team-img {
@@ -516,7 +519,7 @@ address p {
 }
 
 .fa-facebook {
-  
+
 }
 
 .copyright {
