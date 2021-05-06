@@ -422,6 +422,10 @@ input {
 
 }
 
+.lacrue-team h3 {
+
+}
+
 .lacrue-team p {
   
 }
@@ -679,7 +683,7 @@ article {
 .faq-list-item h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-weight: 1.125em;
+  font-size: 1.125em;
 
 }
 
@@ -744,7 +748,23 @@ aside {
   width: 80%;
 }
 
+.reviews figure {
 
+}
+
+.reviews figure a {
+
+}
+
+
+
+.reviews figure img {
+
+}
+
+.reviews img {
+
+}
 
 /*FAQ page specific*/
   article {
