@@ -746,24 +746,17 @@ aside {
 
 .reviews .content-wrapper {
   width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.reviews figure {
-
+.content-wrapper h2 {
+   width: 85%;
 }
 
-.reviews figure a {
-
-}
-
-
-
-.reviews figure img {
-
-}
-
-.reviews img {
-
+.lacrue-team {
+   width: 48%;
 }
 
 /*FAQ page specific*/
