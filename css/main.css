@@ -321,7 +321,7 @@ aside {
   flex-direction: column;
 }
 
-utton, input {
+button, input {
   overflow: visible;
   margin: 8px;
   padding: 10px;
@@ -499,6 +499,8 @@ address p {
 
 .social h4 {
   text-align: center;
+  padding: 20px 0 0 0;
+  
 }
 
 footer .social-icons {
@@ -729,6 +731,10 @@ header nav {
   width: 50%;
 }
 
+footer .content-wrapper {
+  width: 100%;
+}
+
 .footer-content {
   flex-direction: row;
   justify-content: space-evenly;
@@ -739,7 +745,7 @@ header nav {
 /*Homepage specific*/
 
 .hero-area .content-wrapper {
-  width: 80%;
+  /*width: 80%;*/
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -753,7 +759,7 @@ aside {
 
 
 .features .content-wrapper {
-    width: 80%;
+   /* width: 80%;*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -764,18 +770,22 @@ aside {
 }
 
 .reviews .content-wrapper {
-  width: 80%;
+ /* width: 80%;*/
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .content-wrapper h2 {
-   width: 85%;
+  /* width: 85%; */
 }
 
 .lacrue-team {
    width: 48%;
+}
+
+address p {
+  padding-top: 20px;
 }
 
 /*FAQ page specific*/
@@ -787,7 +797,7 @@ aside {
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-between;
-      width: 80%;
+    /*  width: 80%;*/
 }
 
   .faq-items h1 {
@@ -838,6 +848,14 @@ aside {
   
   }
   
+}
+
+/*
+media queries for desktop */
+
+@media only screen and (min-width:1200px) {
+
+
 }
 
 /* ==========================================================================
