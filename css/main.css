@@ -614,6 +614,7 @@ map figure {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
+  padding: 50px 0;
 }
 
 .contact-section .content-wrapper {
@@ -648,6 +649,7 @@ map figure {
 
 .address-about p {
     text-align: left;
+    padding: 0;
 }
 
 .address-about h3 {
@@ -721,7 +723,7 @@ article {
 
 header .content-wrapper {
       flex-wrap: nowrap;
-      width: 80%;
+      width: 90%;
 }
 
   header figure {
@@ -814,16 +816,21 @@ address p {
 }
 
 .mission .content-wrapper{
-    width: 80%;
+    width: 90%;
 }
 
   .mission-content p {
     width: 45%;  
   }
 
+  .contact-section {
+    padding: 50px 0 0 0;
+
+  }
+
   .contact-section .content-wrapper {
       margin-bottom: 100px;
-      width: 80%;
+      width: 90%;
     }
 
   .contact-content {
@@ -839,6 +846,10 @@ address p {
   .address-about {
     flex-wrap: wrap;
     width: 45%;
+  }
+
+  .address-about p {
+
   }
 
   .chat {
