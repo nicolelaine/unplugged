@@ -558,6 +558,7 @@ footer .copyright {
 .mission {
   display: flex;
   justify-content: center;
+  padding: 40px 0;
 }
 
 .mission .content-wrapper {
@@ -612,6 +613,7 @@ map figure {
 .contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-section .content-wrapper {
