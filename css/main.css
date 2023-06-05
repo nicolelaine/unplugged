@@ -880,73 +880,17 @@ address p {
   
   }
   
-}
+
 
 /*
 media queries for desktop */
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
 	
 @media only screen and (min-width: 1200px) {  
 /*Desktop styles here */  
  
     header {
-        padding:
+        padding: 15px 160px;
     }
  
     .content-wrapper {
@@ -955,31 +899,39 @@ media queries for desktop */
  
      /* Hero */
     .hero-area h1 {
-        width: 
+        width: 80%;
     }
  
     /* Aside */
     aside .content-wrapper {
-        justify-content:
+        justify-content: space-around;
+    }
+
+    .content-wrapper h2 {
+      width: 100%;
     }
  
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-        width:
+        width: 30%;
     }
  
     /* Features */
     .features h2 {
-        width: 
+        width: 90%;
     }
  
     .features article {
-        flex-basis: 
+        flex-basis: 33%;
     }
  
     /* Reviews */ 
     .reviews article div {
-        width: 
+        width: 42%;
+    }
+
+    .footer-content {
+      justify-content: space-around;
     }
  
 /* ==========================================================================
