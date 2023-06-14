@@ -93,9 +93,11 @@ textarea {
 }
 
 
-/* General Styles */
- 
-html {
+/* ==========================================================================
+  GENERAL STYLES
+   ========================================================================== */ 
+
+ html {
     font-size: 16px;
 }
  
@@ -146,7 +148,6 @@ figure {
   }
  
 
- 
 address {
  font-style: normal;
  font-size: 0.875em;
@@ -158,7 +159,10 @@ address {
 }
 
 
-/* -------Base Header - Footer Styles -----*/
+/* ==========================================================================
+BASE HEADER AND FOOTER STYLES
+   ========================================================================== */ 
+
 
 header,  
 footer {
@@ -171,8 +175,9 @@ body {
 }
 
 
-/* -------Header Styles -----*/
-
+/* ==========================================================================
+  HEADER STYLES
+   ========================================================================== */ 
 
 header {
       display: flex;
@@ -241,25 +246,23 @@ header nav ul li {
    text-transform: uppercase;
    font-family: 'Open Sans', sans-serif;
    font-weight: 700;
-  
 }
 
 header nav ul li a {
 
- 
-
 }
 nav ul li a:visited {
 
-
 }
 
-/* -------Mobile Styles - Homepage -----*/
+/* ==========================================================================
+MOBILE STYLES - HOMEPAGE
+   ========================================================================== */ 
+
 
 main {
  background-color: #527158;
  color: #e2e3ed;
-
 }
 
 .hero-area {
@@ -283,8 +286,6 @@ article {
   display: flex;
   flex-direction: column;
   width: 100%;
- 
-  
 }
 
 article h1 {
@@ -298,14 +299,15 @@ article p {
 
 }
 
-/*Form stuff - mobile site*/
+/* ==========================================================================
+FORM STUFF - MOBILE SITE
+   ========================================================================== */ 
+
 
 aside {
-
   width: 100%;
   display: flex;
   flex-direction: column;
-  
 }
 
 .form-description {
@@ -338,20 +340,21 @@ button, input {
 input #download-itinerary {
   background-color: #2a423a;
   color: #e2e3ed;
-
 }
 
 input {
 
 }
 
-/****Amenities list and icons section****/
+/* ==========================================================================
+  AMMENITIES  LIST AND ICONS SECTION
+   ========================================================================== */ 
+
 
 .features {
   display: flex;
   justify-content: center;
   background-image: url(../img/dinner.jpg);
-
 }
 
 .features .content-wrapper {
@@ -391,21 +394,21 @@ input {
    width: 60%;
 }
 
-/*Featured team (review) section*/
+/* ==========================================================================
+  FEATURED TEAM (REVIEW) SECTION
+   ========================================================================== */ 
 
 .reviews {
    display: flex;
    justify-content: center;
    background-color: #294139;
-   padding: 30px 0;
-   
+   padding: 30px 0; 
 }
 
 .reviews .content-wrapper {
     display: flex;
     flex-direction: column;
     width: 90%;
-
 }
 
 .reviews-header {
@@ -452,7 +455,9 @@ input {
 
 }
 
-/* -------Footer -----*/
+/* ==========================================================================
+  FOOOTER
+   ========================================================================== */ 
 
 footer {
   display: flex;
@@ -499,8 +504,6 @@ address p {
   text-align: center;
   font-weight: 400;
   font-size: 0.875em;
- 
-
 }
 
 .social {
@@ -509,8 +512,7 @@ address p {
 
 .social h4 {
   text-align: center;
-  padding: 20px 0 0 0;
-  
+  margin: 40px 0 0 0;
 }
 
 footer .social-icons {
@@ -539,7 +541,6 @@ footer .social-icons p {
 
 
 .soc-icon {
-  
   background-color: #527158;
   border-radius: 50%;
   display: flex;
@@ -563,7 +564,10 @@ footer .copyright {
  text-align: center;
 }
 
-/* -------About page mobile styles -----*/
+/* ==========================================================================
+  ABOUT PAGE - MOBILE STYLES
+   ========================================================================== */ 
+
 
 .mission {
   display: flex;
@@ -575,8 +579,6 @@ footer .copyright {
   display: flex;
   justify-content: center;
   width: 90%;
-
-
 }
 
 .mission-content {
@@ -587,8 +589,10 @@ footer .copyright {
 
 .contact-content {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  align-content: flex-start;
 }
 
 .mission-content h1 {
@@ -605,8 +609,6 @@ map {
 
 map figure {
 }
-
-
 
 .mission-content {
 
@@ -653,8 +655,6 @@ map figure {
 .address-about {
   display: flex;
   flex-direction: column;
-  
-
 }
 
 .address-about p {
@@ -675,10 +675,14 @@ map figure {
 }
 
 .chat p {
+  text-align: left;
 
 }
 
-/* -------FAQ page mobile styles -----*/
+/* ==========================================================================
+FAQ PAGE MOBILE STYLES
+   ========================================================================== */ 
+
 
 .faq {
 
@@ -731,6 +735,10 @@ article {
 /*
 @media all and (min-width:768px) {
  media queries for tablet */
+
+ /* ==========================================================================
+        MEDIA QUERIES FOR TABLET
+   ========================================================================== */ 
 
 @media only screen and (min-width:768px) {
 
@@ -805,7 +813,10 @@ address p {
   padding-top: 20px;
 }
 
-/*FAQ page specific*/
+/* ==========================================================================
+        MEDIA QUERIES TABLET - FAQ PAGE SPECIFIC
+   ========================================================================== */ 
+
   article {
       width: 45%;
 }
@@ -821,13 +832,10 @@ address p {
     width: 100%;
   }
 
-
-
-
-
-  }
+  /* ==========================================================================
+      MEDIA QUERIES TABLET - ABOUT PAGE SPECIFIC
+   ========================================================================== */ 
   
-/*About page specific*/
   .mission-content { 
      flex-wrap: wrap;
      flex-direction: row;
@@ -844,7 +852,6 @@ address p {
 
   .contact-section {
     padding: 50px 0 0 0;
-
   }
 
   .contact-section .content-wrapper {
@@ -880,10 +887,11 @@ address p {
   
   }
   
+}
 
-
-/*
-media queries for desktop */
+/* ==========================================================================
+     MEDIA QUERIES DESKTOP
+   ========================================================================== */ 
 
 	
 @media only screen and (min-width: 960px) {  
@@ -932,13 +940,12 @@ media queries for desktop */
 
     .footer-content {
       justify-content: space-between;
-  
     }
     
  
 /* ===================================
 =======================================
-   About Page
+   About Page - DESKTOP
    ========================================================================== */
     .mission h2,
     .contact-section .content-wrapper h2 {
@@ -946,7 +953,7 @@ media queries for desktop */
     }
  
 /* ==========================================================================
-   FAQ Page
+   FAQ Page  - DESKTOP
    ========================================================================== */
     .faq {
       display: flex;
