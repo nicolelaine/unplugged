@@ -744,7 +744,7 @@ article {
 
 header .content-wrapper {
       flex-wrap: nowrap;
-      width: 90%;
+      width: 80%;
 }
 
   header figure {
@@ -951,6 +951,10 @@ address p {
     .contact-section .content-wrapper h2 {
         width: 100%;
     }
+
+   .mission .content-wrapper {
+    width: 80%;
+   }
  
 /* ==========================================================================
    FAQ Page  - DESKTOP
