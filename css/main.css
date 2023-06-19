@@ -111,6 +111,7 @@ body {
    font-size: 1em;
    color: #e2e3ed;
    text-align: left;
+   background-color: #202322;
 }
  
 ul, 
@@ -118,7 +119,6 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
- 
 }
  
 a {
@@ -198,7 +198,6 @@ header {
 }
 
 header .content-wrapper {
-	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -228,7 +227,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  padding: 0;
 }
 
 header nav ul li {
@@ -398,7 +396,7 @@ main {
 
 .hero-area .content-wrapper {
   display: flex;
-  width: 90%;
+  /*width: 90%;*/
   flex-direction: column;
 }
 
@@ -532,7 +530,6 @@ input {
 .features .content-wrapper {
    display: flex;
    flex-direction: column;
-   width: 90%;
    margin: 20px;
 }
 
@@ -591,7 +588,6 @@ input {
 .reviews .content-wrapper {
     display: flex;
     flex-direction: column;
-    width: 90%;
 }
 
 .reviews-header {
@@ -670,7 +666,6 @@ input {
 .mission .content-wrapper {
   display: flex;
   justify-content: center;
-  width: 90%;
 }
 
 .mission-content {
@@ -711,7 +706,6 @@ map figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
 }
 
 .contact-content {
@@ -852,6 +846,15 @@ header nav {
   width: 50%;
 }
 
+header nav ul li a {
+  padding: 0 20px;
+}
+
+.header-divider {
+  width: 0%;
+  height: 0px;
+}
+
 footer .content-wrapper {
   width: 100%;
 }
@@ -866,7 +869,7 @@ footer .content-wrapper {
 /*Homepage specific*/
 
 .hero-area .content-wrapper {
-  /*width: 80%;*/
+  width: 80%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -913,7 +916,9 @@ address p {
         MEDIA QUERIES TABLET - FAQ PAGE SPECIFIC
    ========================================================================== */ 
 
-  article {
+
+  
+   article {
       width: 45%;
 }
 
@@ -921,7 +926,7 @@ address p {
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-between;
-    /*  width: 80%;*/
+      width: 80%;
 }
 
   .faq-items h1 {
@@ -990,7 +995,7 @@ address p {
    ========================================================================== */ 
 
 	
-@media only screen and (min-width: 960px) {  
+@media only screen and (min-width: 1200px) {  
 /*Desktop styles here */  
  
     header {
@@ -1000,11 +1005,26 @@ address p {
     .content-wrapper {
          max-width: 960px;
     }
+
+    h2 {
+      font-size: 2.25em;
+    }
+  
+    h3,
+    h4 {
+      font-size: 1.875em;
+    }
+  
+    p {
+      font-size: 1.125em;
+      line-height: 1.333;
+    }
+  
  
      /* Hero */
     .hero-area h1 {
         width: 100%;
-        font-size: 2.25em;
+        font-size: 3.75em;
         font-family: 'Poppins', Helvetica, Arial, sans-serif;
         font-weight: 500;
         line-height: 1.2;
