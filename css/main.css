@@ -1053,11 +1053,11 @@ address p {
  
      /* Hero */
     .hero-area h1 {
-        width: 100%;
+        width: 80%;
         font-size: 3.75em;
         font-family: 'Poppins', Helvetica, Arial, sans-serif;
         font-weight: 500;
-        line-height: 1.2;
+       /* line-height: 1.2;*/
     }
  
     /* Aside */
@@ -1090,6 +1090,10 @@ address p {
 
     .footer-content {
       justify-content: space-between;
+    }
+
+    footer h4 {
+      font-size: 1.875em;
     }
     
  
