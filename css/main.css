@@ -938,6 +938,11 @@ aside .form {
    width: 48%;
 }
 
+.lacrue-team h3 {
+  margin-top: 0;
+}
+
+
 address p {
   padding-top: 20px;
 }
@@ -1053,12 +1058,21 @@ address p {
  
      /* Hero */
     .hero-area h1 {
-        width: 80%;
+        width: 100%;
         font-size: 3.75em;
         font-family: 'Poppins', Helvetica, Arial, sans-serif;
         font-weight: 500;
-       /* line-height: 1.2;*/
+       /*line-height: 1.2;*/
     }
+
+    .hero-area .content-wrapper {
+      justify-content: space-around;
+    }
+
+    .hero-area article {
+      width: 30%;
+    }
+    
  
     /* Aside */
     aside .content-wrapper {
@@ -1076,7 +1090,7 @@ address p {
  
     /* Features */
     .features h2 {
-        width: 90%;
+        width: 95%;
     }
  
     .features article {
@@ -1086,6 +1100,10 @@ address p {
     /* Reviews */ 
     .reviews article div {
         width: 42%;
+    }
+
+    footer .content-wrapper {
+      width: 70%;
     }
 
     .footer-content {
