@@ -1058,7 +1058,7 @@ address p {
  
      /* Hero */
     .hero-area h1 {
-        width: 100%;
+        width: 80%;
         font-size: 3.75em;
         font-family: 'Poppins', Helvetica, Arial, sans-serif;
         font-weight: 500;
