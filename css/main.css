@@ -103,7 +103,7 @@ textarea {
 */
 
  html {
-    font-size: 1rem;
+  font-size: 16px;
 }
  
 body {
@@ -234,7 +234,6 @@ header nav ul li {
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 1.125em;
 }
 
 
@@ -1037,7 +1036,7 @@ address p {
         padding: 15px 160px;
     }
  
-    .content-wrapper {
+   header  .content-wrapper {
          max-width: 960px;
     }
 
@@ -1127,6 +1126,23 @@ address p {
    .mission .content-wrapper {
     width: 80%;
    }
+
+   .mission-content h1 {
+    font-size: 1.5em;
+   }
+
+   .mission-content p {
+     font-size: 1 em;
+   }
+
+   .contact-section .content-wrapper h2 {
+    font-size: 1.5 em;
+   }
+/**
+   .mission-content {
+    width: 90%;
+   }
+   /**
  
 /* ==========================================================================
    FAQ Page  - DESKTOP
