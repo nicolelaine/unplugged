@@ -157,7 +157,6 @@ address {
  /* font-size: 0.875em; */
  }
 
-
  .content-wrapper {
     width: 90%;
   /*  margin: 50px 0;*/
@@ -525,7 +524,7 @@ input {
 }
 
 .features h2 {
-
+  font-size: 1.7em;
 }
 
 .features article {
@@ -555,7 +554,7 @@ input {
 }
 
 .icon-item p {
-     
+  font-size: .8em;
 }
 
 .font-awesome-icon {
@@ -900,15 +899,32 @@ footer .soc-icon {
   justify-content: space-between;
 }
 
+.hero-area h1 {
+  width: 70%;
+}
+
 .hero-area article {
-  width: 40%;
+  width: 30%;
+}
+
+.form-aside-etc .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+
+.form-aside-etc article {
+    width: 35%;
 }
 
 aside {
   display: flex;
   justify-content: center;
-  width: 45%;
+  width: 35%;
 }
+
+
 
 aside .form {
   margin-top: 0;
@@ -918,11 +934,16 @@ aside .form {
   padding: 50px;
 }
 
+.features h2 {
+  font-size: 2.15em;
+}
+
 .features .content-wrapper {
    /* width: 80%;*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 80%;
 }
 
 .icon-item {
@@ -938,10 +959,11 @@ aside .form {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 70%;
 }
 
-.content-wrapper h2 {
-  /* width: 85%; */
+.reviews .content-wrapper h2 {
+  width: 70%;
 }
 
 .lacrue-team {
