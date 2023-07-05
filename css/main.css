@@ -449,7 +449,7 @@ FORM STUFF HOMEPAGE - MOBILE SITE
   }
    
    aside .form {
-     margin-top: 30px;
+     margin-bottom: 30px;
    }
     
    input[type=text] {
@@ -554,7 +554,7 @@ input {
 }
 
 .icon-item p {
-  font-size: .8em;
+  font-size: .85em;
 }
 
 .font-awesome-icon {
@@ -950,6 +950,10 @@ aside .form {
   width: 45%;
 }
 
+.icon-item p {
+  font-size: .78em;
+}
+
 .reviews {
   padding: 50px 0;
 }
@@ -1136,7 +1140,21 @@ address p {
     .features article {
         flex-basis: 33%;
     }
- 
+
+    .features .features-item-description {
+      width: 80%; 
+      font-size: 1.4 em;
+    }
+
+/*
+    .features-item-description {
+      width: 80%;
+      font-size: 1.4em;
+    }
+    /*
+
+   
+    
     /* Reviews */ 
 
     .reviews .content-wrapper {
