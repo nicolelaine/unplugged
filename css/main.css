@@ -1203,10 +1203,16 @@ address p {
     }
 
     .mission-content {
-      width: 95%;
+      width: 70%;
+    }
+
+    /*
+    .mission-content {
+      width: 50%;
       display: flex;
       justify-content: flex-start;
     }
+    */
 
    .mission-content h1 {
     font-size: 2.5em;
