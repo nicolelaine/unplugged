@@ -1153,6 +1153,11 @@ address p {
       width: 75%;
     }
 
+    .reviews .content-wrapper h2 {
+      width: 100%;
+      margin-bottom: 70px;
+  }
+
     .reviews article div {
         width: 42%;
     }
