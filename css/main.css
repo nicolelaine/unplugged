@@ -175,14 +175,11 @@ figure {
 BASE HEADER AND FOOTER STYLES
    ========================================================================== */ 
 
-
 header,  
 footer {
   background-color: #202322;
   color: #e2e3ed;
 }
-
-
 
 /* ==========================================================================
   HEADER STYLES
@@ -193,7 +190,6 @@ header {
       justify-content: center;
      /* padding: 15px 0;*/
       background-color: #202322;
-
 }
 
 header .content-wrapper {
@@ -234,7 +230,6 @@ header nav ul li {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
-
 
 header figure {
   width: 100%;
@@ -474,8 +469,6 @@ FORM STUFF HOMEPAGE - MOBILE SITE
      text-transform: uppercase;
    }
 
-
-
 .form-description {
   
 }
@@ -639,7 +632,6 @@ input {
 }
 
 
-
 /* ==========================================================================
   ABOUT PAGE - MOBILE STYLES
    ========================================================================== */ 
@@ -679,7 +671,7 @@ input {
 }
 
 .mission-content h1 {
-
+  font-size: 1.8em;
 }
 
 .mission-content p {
@@ -743,7 +735,7 @@ map figure {
 }
 
 .chat {
-
+  margin-top: 10px;
 }
 
 .chat h3 {
@@ -754,7 +746,6 @@ map figure {
   text-align: left;
   margin: 0;
   padding: 0;
-
 }
 
 /* ==========================================================================
@@ -913,7 +904,6 @@ footer .soc-icon {
   width: 70%;
 }
 
-
 .form-aside-etc article {
     width: 35%;
 }
@@ -923,8 +913,6 @@ aside {
   justify-content: center;
   width: 35%;
 }
-
-
 
 aside .form {
   margin-top: 0;
@@ -1012,8 +1000,12 @@ address p {
      justify-content: space-between;
 }
 
-.mission .content-wrapper{
+  .mission .content-wrapper{
     width: 80%;
+}
+
+  .mission-content h1 {
+  font-size: 2.1em;
 }
 
   .mission-content p {
@@ -1027,6 +1019,10 @@ address p {
   .contact-section .content-wrapper {
       margin-bottom: 100px;
       width: 80%;
+    }
+
+    .contact-section .content-wrapper h2 {
+      width: 70%;
     }
 
   .contact-content {
@@ -1050,6 +1046,7 @@ address p {
 
   .chat {
     width: 45%;
+    margin: 0;
   }
 
   address p {
