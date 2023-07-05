@@ -1095,7 +1095,7 @@ address p {
  
      /* Hero */
     .hero-area h1 {
-        width: 65%;
+        width: 57%;
         font-size: 3.75em;
         font-family: 'Poppins', Helvetica, Arial, sans-serif;
         font-weight: 500;
@@ -1125,12 +1125,16 @@ address p {
     aside .content-wrapper .form {
         width: 30%;
     }
+
+    .form-aside-etc {
+      padding: 0 180px;
+    }
  
     /* Features */
 
 
     .features .content-wrapper {
-      width: 80%;
+      width: 70%;
     }
 
     .features h2 {
@@ -1150,7 +1154,7 @@ address p {
     /* Reviews */ 
 
     .reviews .content-wrapper {
-      width: 75%;
+      width: 65%;
     }
 
     .reviews .content-wrapper h2 {
