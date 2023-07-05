@@ -94,7 +94,7 @@ textarea {
 
 
 /* ==========================================================================
-  GENERAL STYLES
+  GENERAL STYLES MOBILE
    ========================================================================== */ 
 
   /* .content-wrapper {
@@ -172,7 +172,7 @@ figure {
  
 
 /* ==========================================================================
-BASE HEADER AND FOOTER STYLES
+BASE HEADER AND FOOTER STYLES MOBILE
    ========================================================================== */ 
 
 header,  
@@ -182,7 +182,7 @@ footer {
 }
 
 /* ==========================================================================
-  HEADER STYLES
+  HEADER STYLES MOBILE
    ========================================================================== */ 
 
 header {
@@ -260,7 +260,7 @@ nav ul li a:visited {
 }
 
 /* ==========================================================================
-  FOOOTER STYLES
+  FOOOTER STYLES MOBILE
    ========================================================================== */ 
 
    footer {
@@ -971,90 +971,93 @@ address p {
   padding-top: 20px;
 }
 
-/* ==========================================================================
-        MEDIA QUERIES TABLET - FAQ PAGE SPECIFIC
-   ========================================================================== */ 
-  
-   article {
-      width: 45%;
-}
 
- .faq-items {
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 80%;
-}
-
-  .faq-items h1 {
-    width: 100%;
-  }
-
-  /* ==========================================================================
+    /* ==========================================================================
       MEDIA QUERIES TABLET - ABOUT PAGE SPECIFIC
    ========================================================================== */ 
   
   .mission-content { 
-     flex-wrap: wrap;
-     flex-direction: row;
-     justify-content: space-between;
-}
-
-  .mission .content-wrapper{
-    width: 80%;
-}
-
-  .mission-content h1 {
-  font-size: 2.1em;
-}
-
-  .mission-content p {
-    width: 45%;  
-  }
-
-  .contact-section {
-    padding: 50px 0 0 0;
-  }
-
-  .contact-section .content-wrapper {
-      margin-bottom: 100px;
-      width: 80%;
-    }
-
-    .contact-section .content-wrapper h2 {
-      width: 70%;
-    }
-
-  .contact-content {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .contact-content h2 {
-    width: 100%;
-  }
-
-  .address-about {
-    flex-wrap: wrap;
-    width: 45%;
-  }
-
-  .address-about p {
-
-  }
-
-  .chat {
-    width: 45%;
-    margin: 0;
-  }
-
-  address p {
-    padding: 0;
-  
-  }
-  
 }
+
+ .mission .content-wrapper{
+   width: 80%;
+}
+
+  .mission-content h1 {
+ font-size: 2.1em;
+}
+
+ .mission-content p {
+   width: 45%;  
+ }
+
+ .contact-section {
+   padding: 50px 0 0 0;
+ }
+
+ .contact-section .content-wrapper {
+     margin-bottom: 100px;
+     width: 80%;
+   }
+
+   .contact-section .content-wrapper h2 {
+     width: 70%;
+   }
+
+ .contact-content {
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .contact-content h2 {
+   width: 100%;
+ }
+
+ .address-about {
+   flex-wrap: wrap;
+   width: 45%;
+ }
+
+ .address-about p {
+
+ }
+
+ .chat {
+   width: 45%;
+   margin: 0;
+ }
+
+ address p {
+   padding: 0;
+ 
+ }
+
+ /* ==========================================================================
+        MEDIA QUERIES TABLET - FAQ PAGE SPECIFIC
+   ========================================================================== */ 
+  
+   article {
+    width: 45%;
+}
+
+.faq-items {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.faq-items h1 {
+  width: 100%;
+}
+ 
+}
+
+
 
 /* ==========================================================================
      MEDIA QUERIES DESKTOP 
@@ -1186,29 +1189,44 @@ address p {
    About Page - DESKTOP
    ========================================================================== */
 
-    .mission h2,
+    .mission {
+      padding: 60px 0;
+    }
+   
+   .mission h2,
     .contact-section .content-wrapper h2 {
         width: 100%;
     }
 
     .mission-content {
-      width: 83%;
+      width: 95%;
+      display: flex;
+      justify-content: flex-start;
     }
 
    .mission-content h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    width: 80%;
    }
 
    .mission-content p {
      font-size: 1em;
+     width: 38%;
+     display: flex;
+     padding-right: 70px;
    }
 
    .contact-section .content-wrapper {
-     width: 67%;
+     width: 75%;
    }
 
    .contact-section .content-wrapper h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    width: 70%;
+   }
+
+   .contact-content h3 {
+    margin-top: 0;
    }
 /**
    .mission-content {
