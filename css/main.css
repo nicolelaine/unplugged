@@ -1143,17 +1143,9 @@ address p {
 
     .features .features-item-description {
       width: 80%; 
-      font-size: 1.4 em;
-    }
-
-/*
-    .features-item-description {
-      width: 80%;
       font-size: 1.4em;
     }
-    /*
 
-   
     
     /* Reviews */ 
 
@@ -1206,7 +1198,7 @@ address p {
    }
 
    .mission-content p {
-     font-size: 1 em;
+     font-size: 1em;
    }
 
    .contact-section .content-wrapper {
@@ -1214,7 +1206,7 @@ address p {
    }
 
    .contact-section .content-wrapper h2 {
-    font-size: 1.5 em;
+    font-size: 1.5em;
    }
 /**
    .mission-content {
