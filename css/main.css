@@ -1134,7 +1134,9 @@ address p {
       /* padding: 50px 450px; */
       /* align-items: flex-start; */
       justify-content: center;
-      /* max-width: 960px; */
+     /*
+      max-width: 960px;
+      */
   }
     
      .hero-area h1 {
@@ -1142,15 +1144,14 @@ address p {
         font-family: 'Poppins', Helvetica, Arial, sans-serif;
         font-weight: 500;
         max-width: 960px;
-        width: 70%;
-       /*line-height: 1.2;*/
+        line-height: 60px;
     }
 
     .hero-area .content-wrapper {
       justify-content: space-around;
       max-width: 960px;
     }
-
+/*
     .hero-area article {
       width: 30%;
     }
@@ -1176,19 +1177,28 @@ address p {
       display: flex;
       justify-content: space-around;
      /* max-width: 960px;*/ 
+
+/*
+     .form-aside-etc {
+      display: flex;
+      max-width: 960px;
+      justify-content: flex-end;
+     }
     
+    */
     .form-aside-etc .content-wrapper {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       max-width: 960px;
     }
 
+
     .form-aside-etc article {
-     /* width: 60%;*/
+      width: 34%
   }
 
   aside {
-    width: 45%;
+    width: 35%;
   }
  
     /* Features */
