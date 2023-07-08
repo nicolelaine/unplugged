@@ -454,6 +454,11 @@ FORM STUFF HOMEPAGE - MOBILE SITE
      font-style: italic;
       padding: 2em;
    }
+
+   #email {
+    margin-left: 0;
+  }
+  
     
    input[type=button] {
   /*   width: 100%; */
@@ -467,6 +472,7 @@ FORM STUFF HOMEPAGE - MOBILE SITE
      border: none;
      text-align: center;
      text-transform: uppercase;
+     margin-left: 0;
    }
 
 .form-description {
@@ -889,6 +895,7 @@ footer .soc-icon {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 640px;
 }
 
 .hero-area h1 {
@@ -903,16 +910,26 @@ footer .soc-icon {
   display: flex;
   justify-content: space-between;
   width: 70%;
+  max-width: 640px;
 }
 
 .form-aside-etc article {
-    width: 35%;
+    width: 40%;
+}
+
+.form-aside-etc article h3 {
+  font-size: 1.4em;
+  line-height: 25px;
+}
+
+.form-description h3 {
+  font-size: 1.4em;
 }
 
 aside {
   display: flex;
   justify-content: center;
-  width: 35%;
+  width: 40%;
 }
 
 aside .form {
@@ -933,6 +950,7 @@ aside .form {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
+    max-width: 640px;
 }
 
 .icon-item {
@@ -953,10 +971,12 @@ aside .form {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 70%;
+  max-width: 640px;
 }
 
 .reviews .content-wrapper h2 {
   width: 70%;
+  max-width: 640px;
 }
 
 .lacrue-team {
@@ -1098,12 +1118,31 @@ address p {
    ========================================================================== */ 
  
      /* Hero */
-    .hero-area h1 {
-        width: 57%;
+    /*
+    .hero-area {
+      display: flex;
+      flex-direction: column;
+      padding: 50px 400px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      max-width: 960px;
+    }
+*/
+    .hero-area {
+      display: flex;
+      /* flex-direction: column; */
+      /* padding: 50px 450px; */
+      /* align-items: flex-start; */
+      justify-content: center;
+      /* max-width: 960px; */
+  }
+    
+     .hero-area h1 {
         font-size: 3.75em;
         font-family: 'Poppins', Helvetica, Arial, sans-serif;
         font-weight: 500;
-        padding-right: 130px;
+        max-width: 960px;
+        width: 70%;
        /*line-height: 1.2;*/
     }
 
@@ -1120,26 +1159,43 @@ address p {
     /* Aside */
     aside .content-wrapper {
         justify-content: space-around;
+       /* max-width: 960px;*/
     }
 
     .content-wrapper h2 {
       width: 100%;
+    /*  max-width: 960px;*/
     }
  
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-        width: 30%;
+        width: 45%;
+    }
+/*
+    .form-aside-etc {
+      display: flex;
+      justify-content: space-around;
+     /* max-width: 960px;*/ 
+    
+    .form-aside-etc .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      max-width: 960px;
     }
 
-    .form-aside-etc {
-      padding: 0 180px;
-    }
+    .form-aside-etc article {
+     /* width: 60%;*/
+  }
+
+  aside {
+    width: 45%;
+  }
  
     /* Features */
 
 
     .features .content-wrapper {
-      width: 70%;
+      max-width: 960px;
     }
 
     .features h2 {
@@ -1159,12 +1215,13 @@ address p {
     /* Reviews */ 
 
     .reviews .content-wrapper {
-      width: 65%;
+      max-width: 960px;
     }
 
     .reviews .content-wrapper h2 {
       width: 100%;
       margin-bottom: 70px;
+      max-width: 960px;
   }
 
     .reviews article div {
@@ -1185,6 +1242,7 @@ address p {
 
     footer .contact {
       padding: 20px 0 0 100px;
+      max-width: 960px;
     }
 
     footer .social {
