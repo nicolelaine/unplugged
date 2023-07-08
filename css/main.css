@@ -790,7 +790,8 @@ faq h2 {
 
 .faq-items h1 {
    font-family: 'Open Sans', sans-serif;
-   font-weight: 400;
+   font-weight: 500;
+   line-height: 30px;
    font-size: 1.875em;
    padding: 0 0 20px 0;
 }
@@ -984,6 +985,7 @@ address p {
 
  .mission .content-wrapper{
    width: 80%;
+    max-width: 640px;
 }
 
   .mission-content h1 {
@@ -1001,6 +1003,7 @@ address p {
  .contact-section .content-wrapper {
      margin-bottom: 100px;
      width: 80%;
+     max-width: 640px;
    }
 
    .contact-section .content-wrapper h2 {
@@ -1049,6 +1052,7 @@ address p {
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
+    max-width: 640px;
 }
 
 .faq-items h1 {
@@ -1105,6 +1109,7 @@ address p {
 
     .hero-area .content-wrapper {
       justify-content: space-around;
+      max-width: 960px;
     }
 
     .hero-area article {
@@ -1202,6 +1207,11 @@ address p {
         width: 100%;
     }
 
+    .mission .content-wrapper {
+      max-width: 960px;
+    }
+
+    /*
     .mission-content {
       width: 70%;
     }
@@ -1228,6 +1238,7 @@ address p {
 
    .contact-section .content-wrapper {
      width: 75%;
+     max-width: 960px;
    }
 
    .contact-section .content-wrapper h2 {
@@ -1254,6 +1265,7 @@ address p {
 
     .faq .content-wrapper {
       justify-content: center;
+      max-width: 960px;
     }
    
    .faq h2 {
@@ -1264,6 +1276,11 @@ address p {
 
     .faq-items {
       width: 100%;
+      max-width: 960px;
+    }
+
+    .faq-items h1 {
+      font-weight: 550;
     }
 
     header .content-wrapper {
