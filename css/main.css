@@ -1145,6 +1145,8 @@ address p {
         font-weight: 500;
         max-width: 960px;
         line-height: 60px;
+        width: 60%;
+        padding-right: 100px;
     }
 
     .hero-area .content-wrapper {
