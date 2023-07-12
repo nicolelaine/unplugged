@@ -166,10 +166,6 @@ img {
    width: 100%
 }
  
-figure {
-    margin: 0;
-  }
- 
 
 /* ==========================================================================
 BASE HEADER AND FOOTER STYLES MOBILE
@@ -387,6 +383,12 @@ main {
   padding: 50px 0;
 }
 
+.hero-area {
+  background: url('../img/hero-image.jpg') center no-repeat #333;
+  background-size: cover;
+}
+
+
 .hero-area .content-wrapper {
   display: flex;
   /*width: 90%;*/
@@ -399,6 +401,7 @@ main {
   font-weight: 500;
   line-height: 1.2;
   width: 90%;
+  padding-bottom: 250px;
 }
 
 .form-aside-etc {
