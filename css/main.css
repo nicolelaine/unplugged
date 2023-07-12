@@ -165,6 +165,10 @@ address {
 img {
    width: 100%
 }
+
+figure {
+  margin: 0;
+}
  
 
 /* ==========================================================================
@@ -522,7 +526,12 @@ input {
 .features {
   display: flex;
   justify-content: center;
-  background-image: url(../img/dinner.jpg);
+}
+
+.features {
+  background: url('../img/dinner.jpg') center no-repeat #333;
+  background-size: cover;
+
 }
 
 .features h2 {
