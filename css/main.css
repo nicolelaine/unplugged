@@ -199,6 +199,7 @@ header .content-wrapper {
 	flex-direction: row;
 	flex-wrap: wrap;
   padding: 10px 0 20px;
+  /*margin:0 */
 }
 
 .header-divider {
@@ -232,6 +233,7 @@ header nav ul li {
 }
 
 header figure {
+  /*width: 60%; */
   width: 100%;
   padding: 0;
   margin: 15px 0;
@@ -239,9 +241,10 @@ header figure {
   justify-content: center;
 }
 
+/*
 header figure a {
- 
 }
+*/
 
 #unplugged {
   width: 220px;
@@ -272,7 +275,7 @@ nav ul li a:visited {
   }
 
   footer p {
-
+  /*margin:0; */
   }
 
   footer .content-wrapper {
@@ -390,6 +393,8 @@ main {
 .hero-area {
   background: url('../img/hero-image.jpg') center no-repeat #333;
   background-size: cover;
+  min-height: 500px;
+
 }
 
 
@@ -536,6 +541,7 @@ input {
 
 .features h2 {
   font-size: 1.7em;
+  /*margin-bottom: 60px */
 }
 
 .features article {
@@ -856,6 +862,7 @@ header .content-wrapper {
   header figure {
       display: block;
       width: 100%
+      /*width: 60%; */
 }
 
 header nav {
