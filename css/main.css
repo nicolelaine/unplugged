@@ -86,12 +86,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/*
 
    * {
   outline: 1px solid red;
 }
 
+/*
 
 /* ==========================================================================
   GENERAL STYLES MOBILE
@@ -255,12 +256,15 @@ header .content-header h1 {
   line-height: 1.875em;
 }
 
+/*
+
 header nav ul li a {
 
 }
 nav ul li a:visited {
 
 }
+/*
 
 /* ==========================================================================
   FOOOTER STYLES MOBILE
@@ -274,18 +278,26 @@ nav ul li a:visited {
     background-color: #202322;
   }
 
+  /*
+
   footer p {
-  /*margin:0; */
+  /*margin:0;
   }
 
+ */
+  
   footer .content-wrapper {
     width: 55%;
     margin: 50px 0;
   }
 
+  /*
+
   footer .contact {
-    /*margin-bottom: 50px;*/
+    /*margin-bottom: 50px;
   }
+
+  */
 
   footer .social-icons {
     display: flex;
@@ -327,6 +339,8 @@ nav ul li a:visited {
   .footer-contact {
     margin-bottom: 50px;
   }
+
+  /*
   
   .contact address {
   
@@ -336,6 +350,8 @@ nav ul li a:visited {
   
   }
   
+  */
+
   address h4 {
     text-align: center;
     font-weight: 500;
@@ -347,10 +363,14 @@ nav ul li a:visited {
     font-weight: 400;
     font-size: 0.875em;
   }
+
+  /*
   
   .social {
   
   }
+
+  */
   
   .social h4 {
     text-align: center;
@@ -374,6 +394,8 @@ nav ul li a:visited {
     justify-content: center;
     margin: 0 10px;
   }
+
+  /*
   
   .soc {
   
@@ -382,6 +404,8 @@ nav ul li a:visited {
   .fa-facebook {
   
   }
+
+  */
   
   .copyright p {
     text-align: center;
@@ -408,15 +432,17 @@ main {
   background: url('../img/hero-image.jpg') center no-repeat #333;
   background-size: cover;
   min-height: 400px;
-
 }
 
+/*
 
 .hero-area .content-wrapper {
  /* display: flex;
   /*width: 90%;
-  flex-direction: column; */
+  flex-direction: column;
 }
+
+ */
 
 .hero-area h1 {
   font-size: 2.25em;
@@ -432,15 +458,21 @@ main {
   justify-content: center;
 }
 
+/*
+
 .content-wrapper h1 {
 
 }
+
+*/
 
 article {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+
+/*
 
 article h1 {
 
@@ -501,6 +533,8 @@ FORM STUFF HOMEPAGE - MOBILE SITE
      margin-left: 0;
    }
 
+/*
+
 .form-description {
   
 }
@@ -508,6 +542,8 @@ FORM STUFF HOMEPAGE - MOBILE SITE
 .form-description h3 {
    
 }
+
+*/
 
 .form {
   display: flex;
@@ -520,9 +556,13 @@ FORM STUFF HOMEPAGE - MOBILE SITE
   margin: 50px 0 20px 0;
 }
 
+/*
+
 button {
 
 }
+
+*/
 
 button, input {
   overflow: visible;
@@ -538,6 +578,8 @@ input #download-itinerary {
   background-color: #2a423a;
   color: #e2e3ed;
 }
+
+/*
 
 input {
 
@@ -563,9 +605,13 @@ input {
   /*margin-bottom: 60px */
 }
 
+/*
+
 .features article {
 
 }
+
+*/
 
 .features .content-wrapper {
    display: flex;
@@ -573,6 +619,8 @@ input {
    margin: 20px;
 }
 
+
+/*
 .features p {
 
 }
@@ -580,6 +628,8 @@ input {
 .features-items {
 
 }
+
+*/
 
 .icon-item {
   display: flex;
@@ -598,9 +648,13 @@ input {
   margin-bottom: 10px;
 }
 
+/*
+
 .font-awesome-icon {
 
 }
+
+*/
 
 .features-item-description {
    text-align: center;
@@ -782,6 +836,7 @@ input {
   justify-content: center;
 }
 
+/*
 
 
 .contact-content {
@@ -800,6 +855,8 @@ input {
 
 }
 
+*/
+
 .address-about {
   display: flex;
   flex-direction: column;
@@ -811,17 +868,25 @@ input {
     margin: 0;
 }
 
+/*
+
 .address-about h3 {
 
 }
+
+*/
 
 .chat {
   margin-top: 10px;
 }
 
+/*
+
 .chat h3 {
 
 }
+
+*/
 
 .chat p {
   text-align: left;
@@ -880,18 +945,19 @@ faq h2 {
 article {
 
 }
-*/
+
 
 .faq-list-item {
 
 }
+
+*/
 
 .faq-list-item h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.125em;
   margin: 10px 0;
-
 }
 
 .faq-list-item p {
@@ -978,9 +1044,11 @@ footer .soc-icon {
   max-width: 640px;
 }
 
+/*
 .hero-area h1 {
- /* width: 70%; */
+ /* width: 70%; 
 }
+*/
 
 .hero-area article {
   width: 30%;
@@ -1067,7 +1135,6 @@ aside .form {
   margin-top: 0;
 }
 
-
 address p {
   padding-top: 20px;
 }
@@ -1099,7 +1166,6 @@ address p {
  .map-container {
   padding-bottom: 45.5%;
 }
-
 
  .contact-section {
    padding: 50px 0 0 0;
@@ -1141,7 +1207,6 @@ address p {
 
  address p {
    padding: 0;
- 
  }
 
  /* ==========================================================================
@@ -1212,7 +1277,7 @@ address p {
       justify-content: flex-start;
       max-width: 960px;
     }
-*/
+
     .hero-area {
       /*
       display: flex;
@@ -1222,8 +1287,9 @@ address p {
     /*  justify-content: center; 
      /*
       max-width: 960px;
-      */
+    
   }
+    */
     
      .hero-area h1 {
         font-size: 3.75em;
