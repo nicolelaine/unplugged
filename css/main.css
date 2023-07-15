@@ -1071,6 +1071,11 @@ address p {
    width: 45%;  
  }
 
+ .map-container {
+  padding-bottom: 45.5%;
+}
+
+
  .contact-section {
    padding: 50px 0 0 0;
  }
@@ -1362,6 +1367,10 @@ address p {
      display: flex;
      padding-right: 70px;
    }
+
+   .map-container {
+    padding-bottom: 37.5%;
+  }
 
    .contact-section .content-wrapper {
      width: 75%;
